@@ -131,7 +131,7 @@
 
 
     <!-- **********************************************section-1***************************************************** -->
-    <section style="background-image: url(img/banner-1.jpg);">
+    <section style="background-image: url(img/banner-1.jpg); background-repeat: no-repeat; background-size: cover;width: 100%;">
         <div class="container ">
             <div class="row ">
                 <div class="col-lg-6 pt-5 mt-5">
@@ -239,15 +239,15 @@
     <!-- **************************************************section-2********************************************** -->
     <div class="container-lg my-5">
         <div class="heading d-flex">
-            <div class="title d-flex justify-content-between" style="width: 100%;">
+            <div class="title d-flex justify-content-between align-items-center" style="width: 100%;">
                 <h2>Category</h2>
-                <button class="btn bg-lightgreen mt-2 mb-2">View All</button>
+                <button class="btn bg-lightgreen">View All</button>
             </div>
-            <div class="slideBtns">
-                <div class="swiper-button-prev">
+            <div class="slideBtns align-items-center">
+                <div class="swiper-button-prev btn bg-light">
                     <i class="ri-arrow-left-s-line"></i>
                 </div>
-                <div class="swiper-button-next">
+                <div class="swiper-button-next btn bg-light">
                     <i class="ri-arrow-right-s-line"></i>
                 </div>
             </div>
@@ -317,16 +317,16 @@
                     <h4 class="fs-6 fw-normal mt-2">Breads</h4>
                 </div>
             </div>
-
         </div>
 
+    </div>
+
+    <!-- ******************************************section-3****************************************************** -->
 
 
-        <!-- ******************************************section-3****************************************************** -->
 
-
-
-        <section>
+    <section>
+        <div class="container-lg">
             <div class="heading my-5 d-flex ">
                 <div class="title d-flex justify-content-between" style="width: 100%;">
                     <h2> Best selling products</h2>
@@ -334,415 +334,362 @@
                 </div>
             </div>
 
-            <div class="container">
-                <div class="row g-4">
-                    <div class="product-grid row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5">
-                        <div class="col-2 me-5 mb-3 ms-2">
-                            <div class="card pt-1 d-flex justify-content-center  border-0 " style="width: 18rem;">
-                                <img src="img/product-thumb-1.png "style="width: 158px;height: 210px;"  class="mx-auto">
 
-                                <div class="card-body text-center">
-                                    <h3 class="card-text fs-6 fw-normal ">Whole Wheat Sandwich Bread</h3>
-                                    <span>
-                                        <i class="ri-star-fill fs-5"></i> <i class="ri-star-fill fs-5"></i>
-                                        <i class="ri-star-fill fs-5"></i> <i class="ri-star-fill fs-5"></i>
-                                        <i class="ri-star-half-s-line fs-5"></i>
-                                    </span>
-                                    <span class="text-gray fs-6">(222)</span>
-                                </div>
+            <div class="row g-4">
+                <div class="product-grid mb-3 mt-5 row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5">
+                    <div class="col">
+                        <div class="card pt-1 d-flex justify-content-center  border-0 " style="width: 18rem;">
+                            <img src="img/product-thumb-1.png " style="width: 158px;height: 210px;" class="mx-auto">
 
-                                <div class="d-flex justify-content-center gap-2 mt-1">
-                                    <p><del class="fs-6 text-gray">$24.00</del></p><strong
-                                        class="fs-6 text-dark">$18.00</strong>
-                                    <span class="py-0">
-                                        <p class="border border-secondary m-0  text-gray rounded-0 fs-6 px-2">10%
-                                            off</p>
-                                    </span>
-                                </div>
-
-                                 <div class="hiding_btn align-items-center gap-2 mb-3">
-                                        <input type="number" class="form-control form-control-sm" placeholder="1" />
-                                        <button class="btn btn-success btn-sm p-2" style="width:400px">🛒 Add ToCart</button>
-                                        <button class="btn btn-outline-dark btn-sm p-2"><i class="ri-heart-line"></i></button>
-                                </div> 
+                            <div class="card-body text-center">
+                                <h3 class="card-text fs-6 fw-normal ">Whole Wheat Sandwich Bread</h3>
+                                <span>
+                                    <i class="ri-star-fill fs-5"></i> <i class="ri-star-fill fs-5"></i>
+                                    <i class="ri-star-fill fs-5"></i> <i class="ri-star-fill fs-5"></i>
+                                    <i class="ri-star-half-s-line fs-5"></i>
+                                </span>
+                                <span class="text-gray fs-6">(222)</span>
                             </div>
-                        </div>
-                        <div class="col-2 me-5 mb-3 ms-2">
-                            <div class="card pt-1 d-flex justify-content-center  border-0 " style="width: 18rem;">
-                                <img src="img/product-thumb-1.png "style="width: 158px;height: 210px;"  class="mx-auto">
 
-                                <div class="card-body text-center">
-                                    <h3 class="card-text fs-6 fw-normal ">Whole Wheat Sandwich Bread</h3>
-                                    <span>
-                                        <i class="ri-star-fill fs-5"></i> <i class="ri-star-fill fs-5"></i>
-                                        <i class="ri-star-fill fs-5"></i> <i class="ri-star-fill fs-5"></i>
-                                        <i class="ri-star-half-s-line fs-5"></i>
-                                    </span>
-                                    <span class="text-gray fs-6">(222)</span>
-                                </div>
-
-                                <div class="d-flex justify-content-center gap-2 mt-1">
-                                    <p><del class="fs-6 text-gray">$24.00</del></p><strong
-                                        class="fs-6 text-dark">$18.00</strong>
-                                    <span class="py-0">
-                                        <p class="border border-secondary m-0  text-gray rounded-0 fs-6 px-2">10%
-                                            off</p>
-                                    </span>
-                                </div>
-
-                                 <div class="hiding_btn align-items-center gap-2 mb-3">
-                                        <input type="number" class="form-control form-control-sm" placeholder="1" />
-                                        <button class="btn btn-success btn-sm p-2" style="width:400px">🛒 Add ToCart</button>
-                                        <button class="btn btn-outline-dark btn-sm p-2"><i class="ri-heart-line"></i></button>
-                                </div> 
+                            <div class="d-flex justify-content-center gap-2 mt-1">
+                                <p><del class="fs-6 text-gray">$24.00</del></p><strong
+                                    class="fs-6 text-dark">$18.00</strong>
+                                <span class="py-0">
+                                    <p class="border border-secondary m-0  text-gray rounded-0 fs-6 px-2">10%
+                                        off</p>
+                                </span>
                             </div>
-                        </div>
-                        <div class="col-2 me-5 mb-3 ms-2">
-                            <div class="card pt-1 d-flex justify-content-center  border-0 " style="width: 18rem;">
-                                <img src="img/product-thumb-1.png "style="width: 158px;height: 210px;"  class="mx-auto">
 
-                                <div class="card-body text-center">
-                                    <h3 class="card-text fs-6 fw-normal ">Whole Wheat Sandwich Bread</h3>
-                                    <span>
-                                        <i class="ri-star-fill fs-5"></i> <i class="ri-star-fill fs-5"></i>
-                                        <i class="ri-star-fill fs-5"></i> <i class="ri-star-fill fs-5"></i>
-                                        <i class="ri-star-half-s-line fs-5"></i>
-                                    </span>
-                                    <span class="text-gray fs-6">(222)</span>
-                                </div>
-
-                                <div class="d-flex justify-content-center gap-2 mt-1">
-                                    <p><del class="fs-6 text-gray">$24.00</del></p><strong
-                                        class="fs-6 text-dark">$18.00</strong>
-                                    <span class="py-0">
-                                        <p class="border border-secondary m-0  text-gray rounded-0 fs-6 px-2">10%
-                                            off</p>
-                                    </span>
-                                </div>
-
-                                 <div class="hiding_btn align-items-center gap-2 mb-3">
-                                        <input type="number" class="form-control form-control-sm" placeholder="1" />
-                                        <button class="btn btn-success btn-sm p-2" style="width:400px">🛒 Add ToCart</button>
-                                        <button class="btn btn-outline-dark btn-sm p-2"><i class="ri-heart-line"></i></button>
-                                </div> 
-                            </div>
-                        </div>
-                        <div class="col-2 me-5 mb-3 ms-2">
-                            <div class="card pt-1 d-flex justify-content-center  border-0 " style="width: 18rem;">
-                                <img src="img/product-thumb-1.png "style="width: 158px;height: 210px;"  class="mx-auto">
-
-                                <div class="card-body text-center">
-                                    <h3 class="card-text fs-6 fw-normal ">Whole Wheat Sandwich Bread</h3>
-                                    <span>
-                                        <i class="ri-star-fill fs-5"></i> <i class="ri-star-fill fs-5"></i>
-                                        <i class="ri-star-fill fs-5"></i> <i class="ri-star-fill fs-5"></i>
-                                        <i class="ri-star-half-s-line fs-5"></i>
-                                    </span>
-                                    <span class="text-gray fs-6">(222)</span>
-                                </div>
-
-                                <div class="d-flex justify-content-center gap-2 mt-1">
-                                    <p><del class="fs-6 text-gray">$24.00</del></p><strong
-                                        class="fs-6 text-dark">$18.00</strong>
-                                    <span class="py-0">
-                                        <p class="border border-secondary m-0  text-gray rounded-0 fs-6 px-2">10%
-                                            off</p>
-                                    </span>
-                                </div>
-
-                                 <div class="hiding_btn align-items-center gap-2 mb-3">
-                                        <input type="number" class="form-control form-control-sm" placeholder="1" />
-                                        <button class="btn btn-success btn-sm p-2" style="width:400px">🛒 Add ToCart</button>
-                                        <button class="btn btn-outline-dark btn-sm p-2"><i class="ri-heart-line"></i></button>
-                                </div> 
+                            <div class="hiding_btn align-items-center gap-2 mb-3">
+                                <input type="number" class="form-control form-control-sm p-2" placeholder="1" />
+                                <button class="btn btn-success  bg-lightgreen btn-sm p-2" style="width:400px">🛒 Add
+                                    ToCart</button>
+                                <button class="btn btn-outline-dark btn-sm p-2"><i class="ri-heart-line"></i></button>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+                    <div class="col">
+                        <div class="card pt-1 d-flex justify-content-center  border-0 " style="width: 18rem;">
+                            <img src="img/product-thumb-2.png " style="width: 158px;height: 210px;" class="mx-auto">
 
-        </section>
+                            <div class="card-body text-center">
+                                <h3 class="card-text fs-6 fw-normal ">Whole Grain Oatmeal</h3>
+                                <span>
+                                    <i class="ri-star-fill fs-5"></i> <i class="ri-star-fill fs-5"></i>
+                                    <i class="ri-star-fill fs-5"></i> <i class="ri-star-fill fs-5"></i>
+                                    <i class="ri-star-half-s-line fs-5"></i>
+                                </span>
+                                <span class="text-gray fs-6">(41)</span>
+                            </div>
 
-        <!-- 
-     <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-header d-flex flex-wrap justify-content-between mb-5">
-                        <h2 class="section-title fs-2 fw-1">
-                            Best selling products
-                        </h2>
-                        <div class="d-flex align-items-center">
-                            <a href="#">
-                                <button class="btn bg-lightgreen text-light me-2">View All</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
+                            <div class="d-flex justify-content-center gap-2 mt-1">
+                                <p><del class="fs-6 text-gray">$54.00</del></p><strong
+                                    class="fs-6 text-dark">$50.00</strong>
+                                <span class="py-0">
+                                    <p class="border border-secondary m-0  text-gray rounded-0 fs-6 px-2">10%
+                                        off</p>
+                                </span>
+                            </div>
 
-        <!-- <section>
-        <div class="container">
-            <div class="row">
-            <div class="product-grid row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5">
-                <div class="col">
-                    <div class="card border-0 justify-content-center" style="width: 18rem;">
-                        <img src="./img/card1.png" class="card-img-top mx-auto mb-1 mt-2" alt="..." style="width: 158px;height: 210px;">
-                        <div class="card-body text-center">
-                            <h3 class="card-text fs-6 fw-normal">Whole Wheat Sandwich Bread</h3>
-                            <div>
-                                <span><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-half-s-fill"></i></span>
-                                <span class="text-gray">(222)</span>
-                            </div>
-                           <div class="d-flex justify-content-center gap-2 mt-1">
-                             <p><del class="fs-6 text-gray">$24.00</del></p><strong class="fs-6 text-dark">$18.00</strong>
-                             <span class="py-0"><p class="border border-secondary m-0  text-gray rounded-0 fs-6 px-2">10% off</p></span>
-                           </div>
-                            <div class="hiding_btn align-items-center gap-2">
-                                <input type="number" class="form-control form-control-sm" placeholder="1"/>
-                                <button class="btn btn-success btn-sm" style="width:400px">🛒 Add To Cart</button>
-                                <button class="btn btn-outline-dark btn-sm py-0"><i class="ri-heart-line fs-5"></i></button>
+                            <div class="hiding_btn align-items-center gap-2 mb-3">
+                                <input type="number" class="form-control form-control-sm p-2" placeholder="1" />
+                                <button class="btn btn-success  bg-lightgreen btn-sm p-2" style="width:400px">🛒 Add
+                                    ToCart</button>
+                                <button class="btn btn-outline-dark btn-sm p-2"><i class="ri-heart-line"></i></button>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card border-0 justify-content-center" style="width: 18rem;">
-                        <img src="./img/card2.png" class="card-img-top mx-auto mb-1 mt-2" alt="..." style="width: 158px;height: 210px;">
-                        <div class="card-body text-center">
-                            <h3 class="card-text fs-6 fw-normal">Whole Wheat Sandwich Bread</h3>
-                            <div>
-                                <span><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-half-s-fill"></i></span>
-                                <span class="text-gray">(222)</span>
+                    <div class="col">
+                        <div class="card pt-1 d-flex justify-content-center  border-0 " style="width: 18rem;">
+                            <img src="img/product-thumb-3.png " style="width: 158px;height: 210px;" class="mx-auto">
+
+                            <div class="card-body text-center">
+                                <h3 class="card-text fs-6 fw-normal ">Sharp Cheddar Cheese Block</h3>
+                                <span>
+                                    <i class="ri-star-fill fs-5"></i> <i class="ri-star-fill fs-5"></i>
+                                    <i class="ri-star-fill fs-5"></i> <i class="ri-star-fill fs-5"></i>
+                                    <i class="ri-star-half-s-line fs-5"></i>
+                                </span>
+                                <span class="text-gray fs-6">(32)</span>
                             </div>
-                           <div class="d-flex justify-content-center gap-2 mt-1">
-                             <p><del class="fs-6 text-gray">$24.00</del></p><strong class="fs-6 text-dark">$18.00</strong>
-                             <span class="py-0"><p class="border border-secondary m-0  text-gray rounded-0 fs-6 px-2">10% off</p></span>
-                           </div>
-                            <div class="hiding_btn align-items-center gap-2">
-                                <input type="number" class="form-control form-control-sm" placeholder="1"/>
-                                <button class="btn btn-success btn-sm" style="width:400px">🛒 Add To Cart</button>
-                                <button class="btn btn-outline-dark btn-sm py-0"><i class="ri-heart-line fs-5"></i></button>
+
+                            <div class="d-flex justify-content-center gap-2 mt-1">
+                                <p><del class="fs-6 text-gray">$14.00</del></p><strong
+                                    class="fs-6 text-dark">$12.00</strong>
+                                <span class="py-0">
+                                    <p class="border border-secondary m-0  text-gray rounded-0 fs-6 px-2">10%
+                                        off</p>
+                                </span>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card border-0 justify-content-center" style="width: 18rem;">
-                        <img src="./img/card3.png" class="card-img-top mx-auto mb-1 mt-2" alt="..." style="width: 158px;height: 210px;">
-                        <div class="card-body text-center">
-                            <h3 class="card-text fs-6 fw-normal">Whole Wheat Sandwich Bread</h3>
-                            <div>
-                                <span><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-half-s-fill"></i></span>
-                                <span class="text-gray">(222)</span>
-                            </div>
-                           <div class="d-flex justify-content-center gap-2 mt-1">
-                             <p><del class="fs-6 text-gray">$24.00</del></p><strong class="fs-6 text-dark">$18.00</strong>
-                             <span class="py-0"><p class="border border-secondary m-0  text-gray rounded-0 fs-6 px-2">10% off</p></span>
-                           </div>
-                            <div class="hiding_btn align-items-center gap-2">
-                                <input type="number" class="form-control form-control-sm" placeholder="1"/>
-                                <button class="btn btn-success btn-sm" style="width:400px">🛒 Add To Cart</button>
-                                <button class="btn btn-outline-dark btn-sm py-0"><i class="ri-heart-line fs-5"></i></button>
+
+                            <div class="hiding_btn align-items-center gap-2 mb-3">
+                                <input type="number" class="form-control form-control-sm p-2" placeholder="1" />
+                                <button class="btn btn-success  bg-lightgreen btn-sm p-2" style="width:400px">🛒 Add
+                                    ToCart</button>
+                                <button class="btn btn-outline-dark btn-sm p-2"><i class="ri-heart-line"></i></button>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card border-0 justify-content-center" style="width: 18rem;">
-                        <img src="./img/card4.png" class="card-img-top mx-auto mb-1 mt-2" alt="..." style="width: 158px;height: 210px;">
-                        <div class="card-body text-center">
-                            <h3 class="card-text fs-6 fw-normal">Whole Wheat Sandwich Bread</h3>
-                            <div>
-                                <span><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-half-s-fill"></i></span>
-                                <span class="text-gray">(222)</span>
+                    <div class="col">
+                        <div class="card pt-1 d-flex justify-content-center  border-0 " style="width: 18rem;">
+                            <img src="img/product-thumb-4.png " style="width: 158px;height: 210px;" class="mx-auto">
+
+                            <div class="card-body text-center">
+                                <h3 class="card-text fs-6 fw-normal ">Organic Baby Spinach</h3>
+                                <span>
+                                    <i class="ri-star-fill fs-5"></i> <i class="ri-star-fill fs-5"></i>
+                                    <i class="ri-star-fill fs-5"></i> <i class="ri-star-fill fs-5"></i>
+                                    <i class="ri-star-half-s-line fs-5"></i>
+                                </span>
+                                <span class="text-gray fs-6">(222)</span>
                             </div>
-                           <div class="d-flex justify-content-center gap-2 mt-1">
-                             <p><del class="fs-6 text-gray">$24.00</del></p><strong class="fs-6 text-dark">$18.00</strong>
-                             <span class="py-0"><p class="border border-secondary m-0  text-gray rounded-0 fs-6 px-2">10% off</p></span>
-                           </div>
-                            <div class="hiding_btn align-items-center gap-2">
-                                <input type="number" class="form-control form-control-sm" placeholder="1"/>
-                                <button class="btn btn-success btn-sm" style="width:400px">🛒 Add To Cart</button>
-                                <button class="btn btn-outline-dark btn-sm py-0"><i class="ri-heart-line fs-5"></i></button>
+
+                            <div class="d-flex justify-content-center gap-2 mt-1">
+                                <p><del class="fs-6 text-gray">$24.00</del></p><strong
+                                    class="fs-6 text-dark">$18.00</strong>
+                                <span class="py-0">
+                                    <p class="border border-secondary m-0  text-gray rounded-0 fs-6 px-2">10%
+                                        off</p>
+                                </span>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card border-0 justify-content-center" style="width: 18rem;">
-                        <img src="./img/card5.png" class="card-img-top mx-auto mb-1 mt-2" alt="..." style="width: 158px;height: 210px;">
-                        <div class="card-body text-center">
-                            <h3 class="card-text fs-6 fw-normal">Whole Wheat Sandwich Bread</h3>
-                            <div>
-                                <span><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-half-s-fill"></i></span>
-                                <span class="text-gray">(222)</span>
-                            </div>
-                           <div class="d-flex justify-content-center gap-2 mt-1">
-                             <p><del class="fs-6 text-gray">$24.00</del></p><strong class="fs-6 text-dark">$18.00</strong>
-                             <span class="py-0"><p class="border border-secondary m-0  text-gray rounded-0 fs-6 px-2">10% off</p></span>
-                           </div>
-                            <div class="hiding_btn align-items-center gap-2">
-                                <input type="number" class="form-control form-control-sm" placeholder="1"/>
-                                <button class="btn btn-success btn-sm" style="width:400px">🛒 Add To Cart</button>
-                                <button class="btn btn-outline-dark btn-sm py-0"><i class="ri-heart-line fs-5"></i></button>
+
+                            <div class="hiding_btn align-items-center gap-2 mb-3">
+                                <input type="number" class="form-control form-control-sm p-2" placeholder="1" />
+                                <button class="btn btn-success  bg-lightgreen btn-sm p-2" style="width:400px">🛒 Add
+                                    ToCart</button>
+                                <button class="btn btn-outline-dark btn-sm p-2"><i class="ri-heart-line"></i></button>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card border-0 justify-content-center" style="width: 18rem;">
-                        <img src="./img/card6.png" class="card-img-top mx-auto mb-1 mt-2" alt="..." style="width: 158px;height: 210px;">
-                        <div class="card-body text-center">
-                            <h3 class="card-text fs-6 fw-normal">Whole Wheat Sandwich Bread</h3>
-                            <div>
-                                <span><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-half-s-fill"></i></span>
-                                <span class="text-gray">(222)</span>
+                    <div class="col">
+                        <div class="card pt-1 d-flex justify-content-center  border-0 " style="width: 18rem;">
+                            <img src="img/product-thumb-5.png " style="width: 158px;height: 210px;" class="mx-auto">
+
+                            <div class="card-body text-center">
+                                <h3 class="card-text fs-6 fw-normal ">Organic Baby Spinach</h3>
+                                <span>
+                                    <i class="ri-star-fill fs-5"></i> <i class="ri-star-fill fs-5"></i>
+                                    <i class="ri-star-fill fs-5"></i> <i class="ri-star-fill fs-5"></i>
+                                    <i class="ri-star-half-s-line fs-5"></i>
+                                </span>
+                                <span class="text-gray fs-6">(222)</span>
                             </div>
-                           <div class="d-flex justify-content-center gap-2 mt-1">
-                             <p><del class="fs-6 text-gray">$24.00</del></p><strong class="fs-6 text-dark">$18.00</strong>
-                             <span class="py-0"><p class="border border-secondary m-0  text-gray rounded-0 fs-6 px-2">10% off</p></span>
-                           </div>
-                            <div class="hiding_btn align-items-center gap-2">
-                                <input type="number" class="form-control form-control-sm" placeholder="1"/>
-                                <button class="btn btn-success btn-sm" style="width:400px">🛒 Add To Cart</button>
-                                <button class="btn btn-outline-dark btn-sm py-0"><i class="ri-heart-line fs-5"></i></button>
+
+                            <div class="d-flex justify-content-center gap-2 mt-1">
+                                <p><del class="fs-6 text-gray">$24.00</del></p><strong
+                                    class="fs-6 text-dark">$18.00</strong>
+                                <span class="py-0">
+                                    <p class="border border-secondary m-0  text-gray rounded-0 fs-6 px-2">10%
+                                        off</p>
+                                </span>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card border-0 justify-content-center" style="width: 18rem;">
-                        <img src="./img/card7.png" class="card-img-top mx-auto mb-1 mt-2" alt="..." style="width: 158px;height: 210px;">
-                        <div class="card-body text-center">
-                            <h3 class="card-text fs-6 fw-normal">Whole Wheat Sandwich Bread</h3>
-                            <div>
-                                <span><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-half-s-fill"></i></span>
-                                <span class="text-gray">(222)</span>
-                            </div>
-                           <div class="d-flex justify-content-center gap-2 mt-1">
-                             <p><del class="fs-6 text-gray">$24.00</del></p><strong class="fs-6 text-dark">$18.00</strong>
-                             <span class="py-0"><p class="border border-secondary m-0  text-gray rounded-0 fs-6 px-2">10% off</p></span>
-                           </div>
-                            <div class="hiding_btn align-items-center gap-2">
-                                <input type="number" class="form-control form-control-sm" placeholder="1"/>
-                                <button class="btn btn-success btn-sm" style="width:400px">🛒 Add To Cart</button>
-                                <button class="btn btn-outline-dark btn-sm py-0"><i class="ri-heart-line fs-5"></i></button>
+
+                            <div class="hiding_btn align-items-center gap-2 mb-3">
+                                <input type="number" class="form-control form-control-sm p-2" placeholder="1" />
+                                <button class="btn btn-success  bg-lightgreen btn-sm p-2" style="width:400px">🛒 Add
+                                    ToCart</button>
+                                <button class="btn btn-outline-dark btn-sm p-2"><i class="ri-heart-line"></i></button>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card border-0 justify-content-center" style="width: 18rem;">
-                        <img src="./img/card8.png" class="card-img-top mx-auto mb-1 mt-2" alt="..." style="width: 158px;height: 210px;">
-                        <div class="card-body text-center">
-                            <h3 class="card-text fs-6 fw-normal">Whole Wheat Sandwich Bread</h3>
-                            <div>
-                                <span><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-half-s-fill"></i></span>
-                                <span class="text-gray">(222)</span>
+                    <div class="col mt-3">
+                        <div class="card pt-1 d-flex justify-content-center  border-0 " style="width: 18rem;">
+                            <img src="img/product-thumb-6.png " style="width: 158px;height: 210px;" class="mx-auto">
+
+                            <div class="card-body text-center">
+                                <h3 class="card-text fs-6 fw-normal ">Fresh Salmon</h3>
+                                <span>
+                                    <i class="ri-star-fill fs-5"></i> <i class="ri-star-fill fs-5"></i>
+                                    <i class="ri-star-fill fs-5"></i> <i class="ri-star-fill fs-5"></i>
+                                    <i class="ri-star-half-s-line fs-5"></i>
+                                </span>
+                                <span class="text-gray fs-6">(222)</span>
                             </div>
-                           <div class="d-flex justify-content-center gap-2 mt-1">
-                             <p><del class="fs-6 text-gray">$24.00</del></p><strong class="fs-6 text-dark">$18.00</strong>
-                             <span class="py-0"><p class="border border-secondary m-0  text-gray rounded-0 fs-6 px-2">10% off</p></span>
-                           </div>
-                            <div class="hiding_btn align-items-center gap-2">
-                                <input type="number" class="form-control form-control-sm" placeholder="1"/>
-                                <button class="btn btn-success btn-sm" style="width:400px">🛒 Add To Cart</button>
-                                <button class="btn btn-outline-dark btn-sm py-0"><i class="ri-heart-line fs-5"></i></button>
+
+                            <div class="d-flex justify-content-center gap-2 mt-1">
+                                <p><del class="fs-6 text-gray">$24.00</del></p><strong
+                                    class="fs-6 text-dark">$18.00</strong>
+                                <span class="py-0">
+                                    <p class="border border-secondary m-0  text-gray rounded-0 fs-6 px-2">10%
+                                        off</p>
+                                </span>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card border-0 justify-content-center" style="width: 18rem;">
-                        <img src="./img/card9.png" class="card-img-top mx-auto mb-1 mt-2" alt="..." style="width: 158px;height: 210px;">
-                        <div class="card-body text-center">
-                            <h3 class="card-text fs-6 fw-normal">Whole Wheat Sandwich Bread</h3>
-                            <div>
-                                <span><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-half-s-fill"></i></span>
-                                <span class="text-gray">(222)</span>
-                            </div>
-                           <div class="d-flex justify-content-center gap-2 mt-1">
-                             <p><del class="fs-6 text-gray">$24.00</del></p><strong class="fs-6 text-dark">$18.00</strong>
-                             <span class="py-0"><p class="border border-secondary m-0  text-gray rounded-0 fs-6 px-2">10% off</p></span>
-                           </div>
-                            <div class="hiding_btn align-items-center gap-2">
-                                <input type="number" class="form-control form-control-sm" placeholder="1"/>
-                                <button class="btn btn-success btn-sm" style="width:400px">🛒 Add To Cart</button>
-                                <button class="btn btn-outline-dark btn-sm py-0"><i class="ri-heart-line fs-5"></i></button>
+
+                            <div class="hiding_btn align-items-center gap-2 mb-3">
+                                <input type="number" class="form-control form-control-sm p-2" placeholder="1" />
+                                <button class="btn btn-success  bg-lightgreen btn-sm p-2" style="width:400px">🛒 Add
+                                    ToCart</button>
+                                <button class="btn btn-outline-dark btn-sm p-2"><i class="ri-heart-line"></i></button>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card border-0 justify-content-center" style="width: 18rem;">
-                        <img src="./img/card10.png" class="card-img-top mx-auto mb-1 mt-2" alt="..." style="width: 158px;height: 210px;">
-                        <div class="card-body text-center">
-                            <h3 class="card-text fs-6 fw-normal">Whole Wheat Sandwich Bread</h3>
-                            <div>
-                                <span><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-half-s-fill"></i></span>
-                                <span class="text-gray">(222)</span>
+                    <div class="col mt-3">
+                        <div class="card pt-1 d-flex justify-content-center  border-0 " style="width: 18rem;">
+                            <img src="img/product-thumb-7.png " style="width: 158px;height: 210px;" class="mx-auto">
+
+                            <div class="card-body text-center">
+                                <h3 class="card-text fs-6 fw-normal ">Imported Italian Spaghetti Pasta</h3>
+                                <span>
+                                    <i class="ri-star-fill fs-5"></i> <i class="ri-star-fill fs-5"></i>
+                                    <i class="ri-star-fill fs-5"></i> <i class="ri-star-fill fs-5"></i>
+                                    <i class="ri-star-half-s-line fs-5"></i>
+                                </span>
+                                <span class="text-gray fs-6">(222)</span>
                             </div>
-                           <div class="d-flex justify-content-center gap-2 mt-1">
-                             <p><del class="fs-6 text-gray">$24.00</del></p><strong class="fs-6 text-dark">$18.00</strong>
-                             <span class="py-0"><p class="border border-secondary m-0  text-gray rounded-0 fs-6 px-2">10% off</p></span>
-                           </div>
-                            <div class="hiding_btn align-items-center gap-2">
-                                <input type="number" class="form-control form-control-sm" placeholder="1"/>
-                                <button class="btn btn-success btn-sm" style="width:400px">🛒 Add To Cart</button>
-                                <button class="btn btn-outline-dark btn-sm py-0"><i class="ri-heart-line fs-5"></i></button>
+
+                            <div class="d-flex justify-content-center gap-2 mt-1">
+                                <p><del class="fs-6 text-gray">$24.00</del></p><strong
+                                    class="fs-6 text-dark">$18.00</strong>
+                                <span class="py-0">
+                                    <p class="border border-secondary m-0  text-gray rounded-0 fs-6 px-2">10%
+                                        off</p>
+                                </span>
+                            </div>
+
+                            <div class="hiding_btn align-items-center gap-2 mb-3">
+                                <input type="number" class="form-control form-control-sm p-2" placeholder="1" />
+                                <button class="btn btn-success  bg-lightgreen btn-sm p-2" style="width:400px">🛒 Add
+                                    ToCart</button>
+                                <button class="btn btn-outline-dark btn-sm p-2"><i class="ri-heart-line"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mt-3">
+                        <div class="card pt-1 d-flex justify-content-center  border-0 " style="width: 18rem;">
+                            <img src="img/product-thumb-8.png " style="width: 158px;height: 210px;" class="mx-auto">
+
+                            <div class="card-body text-center">
+                                <h3 class="card-text fs-6 fw-normal ">Granny Smith Apples</h3>
+                                <span>
+                                    <i class="ri-star-fill fs-5"></i> <i class="ri-star-fill fs-5"></i>
+                                    <i class="ri-star-fill fs-5"></i> <i class="ri-star-fill fs-5"></i>
+                                    <i class="ri-star-half-s-line fs-5"></i>
+                                </span>
+                                <span class="text-gray fs-6">(222)</span>
+                            </div>
+
+                            <div class="d-flex justify-content-center gap-2 mt-1">
+                                <p><del class="fs-6 text-gray">$24.00</del></p><strong
+                                    class="fs-6 text-dark">$18.00</strong>
+                                <span class="py-0">
+                                    <p class="border border-secondary m-0  text-gray rounded-0 fs-6 px-2">10%
+                                        off</p>
+                                </span>
+                            </div>
+
+                            <div class="hiding_btn align-items-center gap-2 mb-3">
+                                <input type="number" class="form-control form-control-sm p-2" placeholder="1" />
+                                <button class="btn btn-success  bg-lightgreen btn-sm p-2" style="width:400px">🛒 Add
+                                    ToCart</button>
+                                <button class="btn btn-outline-dark btn-sm p-2"><i class="ri-heart-line"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mt-3">
+                        <div class="card pt-1 d-flex justify-content-center  border-0 " style="width: 18rem;">
+                            <img src="img/product-thumb-9.png " style="width: 158px;height: 210px;" class="mx-auto">
+
+                            <div class="card-body text-center">
+                                <h3 class="card-text fs-6 fw-normal ">Organic 2% Reduced Fat Milk </h3>
+                                <span>
+                                    <i class="ri-star-fill fs-5"></i> <i class="ri-star-fill fs-5"></i>
+                                    <i class="ri-star-fill fs-5"></i> <i class="ri-star-fill fs-5"></i>
+                                    <i class="ri-star-half-s-line fs-5"></i>
+                                </span>
+                                <span class="text-gray fs-6">(222)</span>
+                            </div>
+
+                            <div class="d-flex justify-content-center gap-2 mt-1">
+                                <p><del class="fs-6 text-gray">$24.00</del></p><strong
+                                    class="fs-6 text-dark">$18.00</strong>
+                                <span class="py-0">
+                                    <p class="border border-secondary m-0  text-gray rounded-0 fs-6 px-2">10%
+                                        off</p>
+                                </span>
+                            </div>
+
+                            <div class="hiding_btn align-items-center gap-2 mb-3">
+                                <input type="number" class="form-control form-control-sm p-2" placeholder="1" />
+                                <button class="btn btn-success  bg-lightgreen btn-sm p-2" style="width:400px">🛒 Add
+                                    ToCart</button>
+                                <button class="btn btn-outline-dark btn-sm p-2"><i class="ri-heart-line"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mt-3">
+                        <div class="card pt-1 d-flex justify-content-center  border-0 " style="width: 18rem;">
+                            <img src="img/product-thumb-10.png" style="width: 158px;height: 210px;" class="mx-auto">
+
+                            <div class="card-body text-center">
+                                <h3 class="card-text fs-6 fw-normal ">Greek Style Plain Yogurt</h3>
+                                <span>
+                                    <i class="ri-star-fill fs-5"></i> <i class="ri-star-fill fs-5"></i>
+                                    <i class="ri-star-fill fs-5"></i> <i class="ri-star-fill fs-5"></i>
+                                    <i class="ri-star-half-s-line fs-5"></i>
+                                </span>
+                                <span class="text-gray fs-6">(222)</span>
+                            </div>
+
+                            <div class="d-flex justify-content-center gap-2 mt-1">
+                                <p><del class="fs-6 text-gray">$24.00</del></p><strong
+                                    class="fs-6 text-dark">$18.00</strong>
+                                <span class="py-0">
+                                    <p class="border border-secondary m-0  text-gray rounded-0 fs-6 px-2">10%
+                                        off</p>
+                                </span>
+                            </div>
+
+                            <div class="hiding_btn align-items-center gap-2 mb-3">
+                                <input type="number" class="form-control form-control-sm p-2" placeholder="1" />
+                                <button class="btn btn-success  bg-lightgreen btn-sm p-2" style="width:400px">🛒 Add
+                                    ToCart</button>
+                                <button class="btn btn-outline-dark btn-sm p-2"><i class="ri-heart-line"></i></button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        </div>
-    </section> -->
 
+    </section>
+   
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-
-
-
-        <!-- Swiper JS -->
-        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-        <!-- Initialize Swiper -->
-        <script>
-            var swiper = new Swiper(".mySwiper", {
-                loop: true,
-                autoplay: {
-                    delay: 2500,
-                    disableOnInteraction: false,
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            slidesPerView: 2,
+            spaceBetween: 10,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
                 },
-                slidesPerView: 2,
-                spaceBetween: 10,
-                navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
+                768: {
+                    slidesPerView: 4,
+                    spaceBetween: 40,
                 },
-                breakpoints: {
-                    640: {
-                        slidesPerView: 2,
-                        spaceBetween: 20,
-                    },
-                    768: {
-                        slidesPerView: 4,
-                        spaceBetween: 40,
-                    },
-                    1024: {
-                        slidesPerView: 5,
-                        spaceBetween: 10,
-                    },
-                    1199: {
-                        slidesPerView: 8,
-                        spaceBetween: 10,
-                    },
+                1024: {
+                    slidesPerView: 5,
+                    spaceBetween: 10,
                 },
-            });
-        </script>
+                1199: {
+                    slidesPerView: 8,
+                    spaceBetween: 10,
+                },
+            },
+        });
+    </script>
 
 
 </body>
