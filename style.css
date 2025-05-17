@@ -107,11 +107,12 @@ body {
 }
 
 .hiding_btn {
-    display: none
+    display: flex;
+    opacity: 0;
 }
 
 .card:hover .hiding_btn {
-    display: flex
+    opacity: 1;
 }
 .ri-star-fill{
     color: #FFC107;
