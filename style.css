@@ -76,30 +76,49 @@ body {
 
 
 .slideBtns {
-    width: 100px;
     display: flex;
-    gap: 10px ;
     justify-content: space-between;
 }
 
 .slideBtns div {
     position: static;
-    margin: 10px
 }
 
 .swiper-button-prev::after {
-    content: ""
+    content: "" !important; 
 }
 
 .swiper-button-next::after {
-    content: ""
-}
-
-.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
     content: "" !important;
 }
 
-.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+.swiper-button-prev-1::after {
+    content: "" !important; 
+}
+
+.swiper-button-next-1::after {
+    content: "" !important;
+}
+
+.swiper-button-next-2:after {
+    content: "" !important;
+}
+
+.swiper-button-prev-2:after {
+     content: "" !important;
+}
+.swiper-button-next-3:after {
+    content: "" !important;
+}
+
+.swiper-button-prev-3:after {
+     content: "" !important;
+}
+.swiper-button-next-4:after {
+    content: "" !important;
+}
+
+.swiper-button-prev-4:after {
      content: "" !important;
 }
 .card:hover {
