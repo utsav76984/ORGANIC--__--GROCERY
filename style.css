@@ -5,9 +5,14 @@
     align-content: center;
 }
 
+.border-de
+ {
+            border-bottom: 1px dashed #d1d1d1;
+ }
 .fw-bold {
     font-weight: 700 !important;
 }
+
 
 .bg-lightgreen {
     background-color: #6bb252;
@@ -33,6 +38,11 @@
 .ri-arrow-left-s-line{
     font-size: 30px;
     color:black;
+}
+
+
+.container{
+    max-width: 1576px;
 }
 
 
@@ -139,5 +149,25 @@ body {
 
 .ri-star-half-s-line{
      color: #FFC107;
+}
+.btn-orange{
+ background-color: #FCF7EB;
+}
+.btn-orange:hover{
+ background-color: #FFECBE;
+}
+
+
+.btn-1:hover{
+    background-color: #EFEFEF;
+
+}
+
+.text-gray{
+    color: gray;
+}
+
+.btn-4{
+    background-color: #000;
 }
 
