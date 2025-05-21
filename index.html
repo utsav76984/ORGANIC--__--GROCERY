@@ -34,15 +34,17 @@
             </div>
 
             <div class="input-group d-flex justify-content-center">
-                <div class="d-flex justify-content-center">
+                <div class=" col-5 d-flex justify-content-center">
                     <select class="form-select bg-gray border-0" id="basic-addon1" placeholder="all">
                         <option value="">All Categories</option>
                         <option value="">Groceries</option>
                         <option value="">Drinks</option>
                         <option value="">Chocolates</option>
                     </select>
-                    <input type="address" class="bg-gray border-0 gap-3 px-3"
+                    <input type="address" class="col-6 bg-gray border-0 gap-3 px-3"
                         placeholder="Search for more than 20,000 products" aria-describedby="basic-addon1" />
+
+                  <i class=" col-1 fs-4 ri-search-2-line"></i>
                 </div>
 
             </div>
@@ -50,11 +52,11 @@
             <div class="cold  collapse navbar-collapse container" id="navbarFirst">
                 <ul class=" navbar-nav">
                     <li class="nav-item">
-                        <a href="" class="nav-link fw-bold">Home</a>
+                        <a href="" class="nav-link fw-bold fs-6">Home</a>
                     </li>
                     <li class="nav-item dropdown ">
                         <a href="" class="nav-link dropdown-toggle fw-bold" data-bs-toggle="dropdown"
-                            data-bs-auto-close="outside">PAGES</a>
+                            data-bs-auto-close="outside fs-4">PAGES</a>
                         <ul class="dropdown-menu">
                             <li>
                                 <a href="#" class="dropdown-item">ABOUT US</a>
@@ -97,17 +99,19 @@
 
                 </ul>
             </div>
-            <div class="gap-4 px-1 d-flex ">
-
-                <h4><i class="ri-briefcase-line fs-3"></i></h4>
-                <h4> <i class="ri-store-2-fill fs-3"></i></h3>
-                    <h4> <i class="ri-cake-3-line fs-4"></i></h4>
+             <div class="box gap-md-3 justify-content-center gap-sm-3 my d-flex align-items-center mx-auto">
+                <h4> <i class="fa-regular fa-circle-user fs-5 text-gray"></i></h4>
+                <h4> <i class="fa-regular fa-bookmark fs-5 text-gray"></i></h4>
+                <button data-bs-toggle="offcanvas" data-bs-target="#offcanvas2" type="button"
+                    aria-controls="offcanvasExample" class="btn-1">
+                    <h4><i class="ri-cake-3-line fs-4 text-gray"></i></h4>
+                </button>
             </div>
 
         </div>
     </header>
 
-    <!-- ****************************************************offcanvas****************************************************** -->
+    <!-- ****************************************************offcanvas*********************************************** -->
 
     <section>
         <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
@@ -210,25 +214,25 @@
                     </li>
                     <li class="nav-item border-de active">
                         <a href="index.html" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
-                           <i class="ri-hospital-line fs-4"></i>
+                            <i class="ri-hospital-line fs-4"></i>
                             <p class="h5 fw-light-lg mb-0">Health and Wellness</p>
                         </a>
                     </li>
                     <li class="nav-item border-de active">
                         <a href="index.html" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
-                           <i class="ri-cake-3-line fs-4"></i>
+                            <i class="ri-cake-3-line fs-4"></i>
                             <p class="h5 fw-light-lg mb-0">Household Supplies</p>
                         </a>
                     </li>
                     <li class="nav-item border-de active">
                         <a href="index.html" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
-                           <i class="ri-hospital-fill fs-4"></i>
+                            <i class="ri-hospital-fill fs-4"></i>
                             <p class="h5 fw-light-lg mb-0">Personal Care</p>
                         </a>
                     </li>
                     <li class="nav-item border-de active">
                         <a href="index.html" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
-                           <i class="ri-hospital-fill fs-4"></i>
+                            <i class="ri-hospital-fill fs-4"></i>
                             <p class="h5 fw-light-lg mb-0">Pet Food and Supplies</p>
                         </a>
                     </li>
@@ -241,10 +245,54 @@
         </div>
     </section>
 
+  <section>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas2" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header justify-content-center">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <h4 class="d-flex justify-content-between align-items-center mb-3">
+                    <span class="text-lightgreen">Your Cart</span>
+                    <span class="badge bg-lightgreen rounded-pill">3</span>
+                </h4>
+                <ul class="list-group mb-3">
+                    <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div>
+                            <h6 class="my-0">Growers cider</h6>
+                            <small class="text-body-secondary">Brief description</small>
+                        </div>
+                        <span class="text-body-secondary">$12</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div>
+                            <h6 class="my-0">Fresh grapes</h6>
+                            <small class="text-body-secondary">Brief description</small>
+                        </div>
+                        <span class="text-body-secondary">$8</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div>
+                            <h6 class="my-0">Heinz tomato ketchup</h6>
+                            <small class="text-body-secondary">Brief description</small>
+                        </div>
+                        <span class="text-body-secondary">$5</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between">
+                        <span>Total (USD)</span>
+                        <strong>$20</strong>
+                    </li>
+                </ul>
+                <button class="w-100 text-light btn bg-lightgreen btn-lg btn-hover-2" type="submit">Continue to checkout</button>
+            </div>
+        </div>
+    </section>
+
+
+
 
     <!-- **********************************************section-1***************************************************** -->
     <section
-        style="background-image: url(img/banner-1.jpg); background-repeat: no-repeat; background-size: cover;width: 100%;">
+        style="background-image: url(img/banner-4\ \(1\).jpg); background-repeat: no-repeat; background-size: cover;width: 100%;">
         <div class="container ">
             <div class="row ">
                 <div class="col-lg-6 pt-5 mt-5">
@@ -787,11 +835,47 @@
     </section>
     <!-- *************************************************************section-4**************************************** -->
 
-    <section>
-
-
+     <section>
+        <div class="container">
+            <div class="row g-3">
+                    <div class="col-12  d-flex gap-3 col-lg-7 flex-wrap align-items-center" style="background: url('img/banner-1.jpg')">
+                        <div class="banner-content p-5">
+                            <div class="content-wrapper text-light">
+                                <h3 class="banner-title text-light fw-bold">
+                                    Items on SALE
+                                </h3>
+                                <p class="fs-6">Discounts up to 30%</p>
+                                <h5 class="fromleft text-white fs-6 fw-bold">Shop Now </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5 ">
+                        <div class="col-12 d-flex gap-3  flex-wrap align-items-center " style="background: url('img/banner-2.jpg') no-repeat; background-size: cover; ">
+                        <div class="banner-content p-5">
+                            <div class="content-wrapper text-light">
+                                <h3 class="banner-title text-light fw-bold">
+                                  Combo offers
+                                </h3>
+                                <p class="fs-6">Discounts up to 50%</p>
+                                <h5 class="fromleft text-white fs-6 fw-bold">Shop Now</h5>
+                            </div>
+                        </div>
+                        </div>
+                       <div class="col-12 d-flex gap-3 flex-wrap align-items-center mt-4" style="background: url('img/banner-3.jpg') no-repeat; background-size: cover; height: 214px;">
+                        <div class="banner-content p-5">
+                            <div class="content-wrapper text-light">
+                                <h3 class="banner-title text-light fw-bold">
+                                    Discount Coupons
+                                </h3>
+                                <p class="fs-6">Discounts up to 40%</p>
+                                <h5 class="fromleft text-white fs-6 fw-bold">Shop Now</h5>
+                            </div>
+                        </div>
+                       </div>
+                    </div>
+            </div>
+        </div>
     </section>
-
     <!-- ******************************************************************section-5******************************************* -->
 
 
@@ -1165,7 +1249,7 @@
 
     <section>
         <div class="container my-4">
-            <div class="bg-secondary" style="background-image: url('img/banner-newsletter.jpg');">
+            <div class="bg-secondary" style="background-image: url('img/banner-newsletter.jpg'); height: 300px;">
                 <div class="row justify-content-center">
                     <div class="  col-12 col-md-5 p-3">
                         <h2 class=" display-5 text-light">Get 25% Discount on your first purchase</h2>
@@ -1227,7 +1311,7 @@
                         <div class="swiper-slide d-flex flex-column">
                             <div class="col mt-3">
                                 <div class="card pt-1 d-flex justify-content-center  border-0 ">
-                                    <img src="img/product-thumb-10.png " style="width: 158px;height: 210px;"
+                                    <img src="img/product-thumb-10.png " style="width: 158px;height: 210px; height: 300px;"
                                         class="mx-auto">
 
                                     <div class="card-body text-center">
@@ -1563,7 +1647,7 @@
     </section>
     <!-- *****************************************************section-7********************************************************************** -->
     <section>
-        <div class="container-lg my-5">
+        <div class="container my-5">
             <div class="row">
                 <div class="col-md-12">
                     <div class=" d-flex flex-wrap justify-content-between align-items-center mb-5">
@@ -1939,7 +2023,7 @@
     <!-- *******************************************************section-8********************************************************************* -->
 
     <section>
-        <div class="container-lg my-5">
+        <div class="container  my-5">
             <div class="row">
                 <div class="col-md-12">
                     <div class=" d-flex flex-wrap justify-content-between align-items-center mb-5">
